@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     loadAmiibos();
-  });
+  }, []);
 
   const loadAmiibos = async () => {
     fetchAmiibos().then((data) => {
