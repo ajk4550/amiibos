@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import "./App.css";
 import Amiibos from "./components/amiibos";
 
-const API_BASE = "https://amiiboapi.com/api/";
+const API_BASE = "https://amiibos-rest-api.herokuapp.com/api";
 
 const fetchFromApi = async (apiEndpoint) => {
   const response = await fetch(`${API_BASE}${apiEndpoint}`);
