@@ -1,5 +1,6 @@
 import React from "react";
-import AmiiboCard from "./amiibo-card";
+import AmiiboCard from "./AmiiboCard";
+import "./Amiibos.css";
 
 function Amiibos({ amiibos }) {
   return (

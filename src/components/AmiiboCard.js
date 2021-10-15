@@ -1,3 +1,5 @@
+import "./AmiiboCard.css";
+
 function AmiiboCard({ amiibo }) {
   return (
     <div className="amiibo-card">
